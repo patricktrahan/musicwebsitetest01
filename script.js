@@ -1,6 +1,6 @@
 /* open sidenav */
 function openNav() {
-	document.getElementById('mysidenav').style.width = '100%';
+	document.getElementById('mysidenav').style.width = '50%';
 }
 
 /* close sidenav */
