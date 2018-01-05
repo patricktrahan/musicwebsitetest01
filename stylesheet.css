@@ -10,7 +10,7 @@ a:hover, a:focus {
 }
 
 .header {
-	margin: 20px;
+	margin: 0px;
 	margin-top: -20px;
 	padding: 20px;
 }
@@ -51,8 +51,8 @@ a:hover, a:focus {
 
 .home-image {
 	text-align: center;
-	padding-top: 300px;
-	padding-bottom: 300px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 .center-content {
@@ -71,11 +71,14 @@ a:hover, a:focus {
 
 .footer {
 	background-color: black;
-	margin: 20px;
+	margin: 0px;
 	padding: 20px;
-	text-align: center;
 	word-spacing: 10px;
 	font-size: 20px;
+}
+
+.social-links {
+	text-align: center;
 }
 
 .social {
@@ -99,8 +102,8 @@ a:hover, a:focus {
 }
 
 .album-playlist-container {
-	padding-top: 300px;
-	padding-bottom: 300px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 .album-image {
@@ -172,19 +175,19 @@ a:hover, a:focus {
 		left: 0;
 		background-color: #262626;
 		overflow-x: hidden;
-		padding-top: 60px;
+		padding-top: 23px;
 		transition: 0.5s;
 		display: inherit;
 	}
 
 	.sidenav a {
+		font-size: 26px;
 		padding: 8px 8px 8px 32px;
 		text-decoration: none;
 		font-size: 25px;
 		color: grey;
 		display: block;
 		transition: 0.3s;
-		display: inherit;
 	}
 
 	.sidenav a:hover, a:focus {
@@ -197,18 +200,22 @@ a:hover, a:focus {
 		color: white;
 	}
 
-	.sidenav .closebtn {
-		position: absolute;
-		top: 0;
-		right: 25px;
+	.sidenav .closebtn {	
 		font-size: 36px;
+		padding: 0px 2px 2px 30px;
+		text-decoration: none;
+		color: grey;
+		display: block;
+		transition: 0.3s;
 	}
 
 	.menu-icon {
-		font-size: 30px;
+		font-size: 26px;
 		cursor: pointer;
 		color: gray;
 		float: left;
+		margin-top: -2px;
+		margin-left: 0px;
 	}
 
 	.menu-icon:hover {
@@ -224,12 +231,20 @@ a:hover, a:focus {
 		text-align: center;
 		font-weight: lighter;
 		letter-spacing: 4px;
+		font-size: 26px;
 		color: grey;
-		padding-right: 30px;
+		padding-right: 0px;
+		padding-top: 2px;
+		margin-bottom: -5px;
+		padding-right: 10px;
 	}
 
 	.header-text {
 		display: none;
+	}
+
+	.sidenav-links{
+		padding-top: 50px;
 	}
 }
 
