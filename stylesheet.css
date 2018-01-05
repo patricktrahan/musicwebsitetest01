@@ -77,7 +77,7 @@ a:hover, a:focus {
 
 .social-links {
 	text-align: center;
-	word-spacing: 20px;
+	word-spacing: 0px;
 	font-size: 20px;
 }
 
@@ -248,7 +248,7 @@ a:hover, a:focus {
 	}
 
 	.social-links {
-	
+		
 	}
 }
 
@@ -260,9 +260,5 @@ a:hover, a:focus {
 
 	.sidenav a {
 		font-size: 18px;
-	}
-
-	.social-links {
-		padding-left: 50px;
 	}
 }
