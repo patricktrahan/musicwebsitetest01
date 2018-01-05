@@ -84,6 +84,8 @@ a:hover, a:focus {
 .social {
 	text-decoration: none;
 	color: grey;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .main-text {
