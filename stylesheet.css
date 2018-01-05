@@ -213,6 +213,7 @@ a:hover, a:focus {
 		font-size: 26px;
 		cursor: pointer;
 		color: gray;
+		float: left;
 		margin-top: -2px;
 		margin-left: 0px;
 	}
@@ -259,5 +260,9 @@ a:hover, a:focus {
 
 	.sidenav a {
 		font-size: 18px;
+	}
+
+	.social-links {
+		padding-right: 40px;
 	}
 }
