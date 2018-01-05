@@ -72,13 +72,13 @@ a:hover, a:focus {
 .footer {
 	background-color: black;
 	margin: 0px;
-	padding: 20px;
-	word-spacing: 10px;
-	font-size: 20px;
+	padding-top: 20px;
 }
 
 .social-links {
 	text-align: center;
+	word-spacing: 20px;
+	font-size: 20px;
 }
 
 .social {
@@ -248,8 +248,7 @@ a:hover, a:focus {
 	}
 
 	.social-links {
-		text-align: center;
-		padding-right: 20px;
+		padding-right: 0px;
 	}
 }
 
